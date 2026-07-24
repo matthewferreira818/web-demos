@@ -67,7 +67,7 @@ h1 span{{color:#ffc46b;}}
 <div class="pt">This is my own live e-commerce store — I build your website with the same owner's eye: made to win customers, not just look nice.</div>
 <div class="badge">See it live in my portfolio ↗</div>
 <div class="live">● LIVE STORE</div>
-<div class="frame"><div class="chrome"><i></i><i></i><i></i><div class="url">hotstufffinds.com</div></div><img src="shot_hotstuff.png"></div>
+<div class="frame"><div class="chrome"><i></i><i></i><i></i><div class="url">findhotstuff.com</div></div><img src="shot_hotstuff.png"></div>
 </body></html>"""
 
 for name, html in [("comp1.html", img1), ("comp2.html", img2), ("comp3.html", img3)]:
