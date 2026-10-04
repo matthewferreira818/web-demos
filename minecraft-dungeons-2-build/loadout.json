@@ -1,0 +1,195 @@
+{
+  "game": "Minecraft Dungeons II",
+  "recorded": "2026-10-04",
+  "platform": "PlayStation",
+  "source": "gear-walkthrough.mp4 (phone video of the inventory screen)",
+  "notes": [
+    "All text values were read from in-game tooltips.",
+    "effect.name and effect.tier are inferred by matching the tooltip value to the Metabot gear-effect tier table (build 1.1.1.0); they are not shown in the game UI.",
+    "Talisman slot 3 was never opened in the video and is not identified."
+  ],
+  "character": {
+    "item_power": 151,
+    "item_power_breakdown": { "melee": 153, "ranged": 152, "armor": 151, "artifacts": 151 },
+    "enchantment_points_unspent": 9,
+    "enchantment_points_cap": 99,
+    "emeralds": 91413,
+    "other_currency_counter": { "value": 22, "identity": "unconfirmed, likely Echo Shards" }
+  },
+  "weapons": {
+    "melee": {
+      "name": "Sculker's Bane",
+      "rarity": "Unique",
+      "power": 153,
+      "enchantment": {
+        "name": "Soul Blast",
+        "tier": 3,
+        "text": "Wave deals 75% of weapon damage and deals additional soul damage over time."
+      },
+      "effects": [
+        { "text": "Soul attacks deal 20% more damage.", "name": "Soulmancer", "tier": "Unique (fixed)" },
+        { "text": "Melee attacks deal 20% more damage.", "name": "Sharpness", "tier": 2 }
+      ],
+      "screenshot": "screenshots/01-melee-sculkers-bane.jpg"
+    },
+    "ranged": {
+      "name": "Harp Crossbow",
+      "rarity": "Unique",
+      "power": 152,
+      "ammo": 12,
+      "enchantment": {
+        "name": "Ricochet",
+        "tier": 3,
+        "text": "Projectiles can bounce up to 3 times."
+      },
+      "effects": [
+        { "text": "Grants a 60% chance to fire additional projectiles.", "name": null, "tier": "Unique (fixed)" },
+        { "text": "Deal 50% more damage to enemies affected by a negative status.", "name": "Bully", "tier": 3 }
+      ],
+      "screenshot": "screenshots/02-ranged-harp-crossbow.jpg"
+    }
+  },
+  "armor": {
+    "helmet": {
+      "name": "Hivemind Hardhat",
+      "rarity": "Unique",
+      "power": 149,
+      "enchantment": {
+        "name": "Health Synergy",
+        "tier": 3,
+        "text": "Artifact usage heals 35% of your maximum health."
+      },
+      "effects": [
+        { "text": "Positive statuses you apply to yourself and allies last 70% longer.", "name": null, "tier": "Unique (fixed)" },
+        { "text": "Increases duration of negative statuses on enemies by 40%.", "name": "Tainted", "tier": 1 }
+      ],
+      "screenshot": "screenshots/03-helmet-hivemind-hardhat.jpg"
+    },
+    "chest": {
+      "name": "Twisted Warden Vest",
+      "rarity": "Unique",
+      "power": 153,
+      "enchantment": {
+        "name": "Bottomless Brew",
+        "tier": 3,
+        "text": "Grants 3 additional health potions."
+      },
+      "effects": [
+        { "text": "Grants a 20% chance to evade melee damage.", "name": "Evasion", "tier": "Unique (fixed)" },
+        { "text": "Take 20% less damage.", "name": "Protection", "tier": 3 }
+      ],
+      "screenshot": "screenshots/04-chest-twisted-warden-vest.jpg"
+    },
+    "legs": {
+      "name": "Monarch Sash",
+      "rarity": "Unique",
+      "power": 153,
+      "enchantment": {
+        "name": "Barrier Brew",
+        "tier": 3,
+        "text": "Potion usage creates a Fortifying well for allies lasting 6 seconds."
+      },
+      "effects": [
+        { "text": "Increases Soul capacity by 50%.", "name": "Spiritual", "tier": "Unique (fixed)" },
+        { "text": "Soul attacks deal 20% more damage.", "name": "Soulmancer", "tier": 3 }
+      ],
+      "screenshot": "screenshots/05-legs-monarch-sash.jpg"
+    },
+    "boots": {
+      "name": "Alchemist Loafers",
+      "rarity": "Unique",
+      "power": 149,
+      "enchantment": {
+        "name": "Somersault",
+        "tier": 3,
+        "text": "Grants 3 additional rolls."
+      },
+      "effects": [
+        { "text": "Increases Soul capacity by 50%.", "name": "Spiritual", "tier": "Unique (fixed)" },
+        { "text": "Soul attacks deal 15% more damage.", "name": "Soulmancer", "tier": 2 }
+      ],
+      "screenshot": "screenshots/06-boots-alchemist-loafers.jpg"
+    }
+  },
+  "artifacts": [
+    {
+      "button": "Triangle",
+      "name": "Fighting Fungus",
+      "rarity": "Special",
+      "power": 151,
+      "cooldown_seconds": 5,
+      "soul_cost": 20,
+      "description": "Eaten by daring warriors before battle, unleashing their rage and increasing their attack speed.",
+      "effects": [
+        { "text": "Increases Soul capacity by 30%.", "name": "Spiritual", "tier": 2 },
+        { "text": "Soul attacks deal 15% more damage.", "name": "Soulmancer", "tier": 2 },
+        { "text": "Reduces artifact cooldown time by 15%.", "name": "Cooldown", "tier": 2 }
+      ],
+      "screenshot": "screenshots/07-artifact-fighting-fungus.jpg"
+    },
+    {
+      "button": "Circle",
+      "name": "Fighter's Flute",
+      "rarity": "Special",
+      "power": 152,
+      "cooldown_seconds": 5,
+      "soul_cost": 45,
+      "description": "The music of the flute grants critical striking powers to any fighter of note.",
+      "effects": [
+        { "text": "Increases Soul capacity by 30%.", "name": "Spiritual", "tier": 2 },
+        { "text": "Soul attacks deal 15% more damage.", "name": "Soulmancer", "tier": 2 },
+        { "text": "Fire attacks deal 20% more damage.", "name": "Pyromancer", "tier": 3 }
+      ],
+      "screenshot": "screenshots/08-artifact-fighters-flute.jpg"
+    },
+    {
+      "button": "R1",
+      "name": "Soul Harvester",
+      "rarity": "Special",
+      "power": 151,
+      "cooldown_seconds": 5,
+      "soul_cost": 15,
+      "description": "Charge it up with the souls you have collected before releasing them into a cluster hex of power.",
+      "effects": [
+        { "text": "Increases Soul capacity by 35%.", "name": "Spiritual", "tier": 3 },
+        { "text": "Reduces artifact cooldown time by 15%.", "name": "Cooldown", "tier": 2 },
+        { "text": "Soul attacks deal 15% more damage.", "name": "Soulmancer", "tier": 2 }
+      ],
+      "screenshot": "screenshots/09-artifact-soul-harvester.jpg"
+    }
+  ],
+  "talismans": [
+    {
+      "slot": 1,
+      "name": "Twisted Tooth",
+      "level": 3,
+      "max_level": true,
+      "text": "Increases souls gained by 140%.",
+      "screenshot": "screenshots/10-talisman-twisted-tooth.jpg"
+    },
+    {
+      "slot": 2,
+      "name": "Fist of Iron",
+      "level": 3,
+      "max_level": true,
+      "text": "Melee attacks deal 35% more damage.",
+      "screenshot": "screenshots/11-talisman-fist-of-iron.jpg"
+    },
+    {
+      "slot": 3,
+      "name": null,
+      "level": 3,
+      "text": null,
+      "note": "Tooltip never shown in the video. Yellow icon.",
+      "screenshot": "screenshots/12-talisman-slots.jpg"
+    }
+  ],
+  "totals_simple_sum": {
+    "note": "Straight sums of tooltip percentages. Stacking rules in-game are unconfirmed.",
+    "soul_capacity_pct": 195,
+    "soul_attack_damage_pct": 100,
+    "melee_damage_pct": 55,
+    "artifact_cooldown_reduction_pct": 30,
+    "souls_gained_pct": 140
+  }
+}
